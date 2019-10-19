@@ -61,6 +61,7 @@ body {
   margin-left: 1%;
   margin-right: 1%;
   border: 2px dotted lightgrey;
+	border-radius: 10px;
   padding: 10px 10px 10px 10px;
   font-family: 'Open Sans', sans-serif;
   font-size: small;
@@ -69,8 +70,8 @@ body {
 }
 
 h1 {
-  background-color: #404040;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
 }
 
 h2 {
