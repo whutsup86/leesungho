@@ -73,7 +73,10 @@ body {
 
 h1 {
   background-color: whitesmoke;
+	font-family: 'Codystar', cursive;
+	font-weight:lighter;
   color: black;
+	/* text-shadow: 1px 1px lightgrey; */
 }
 
 h2 {
