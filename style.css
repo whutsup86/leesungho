@@ -58,11 +58,13 @@ a:hover {
 
 body {
   background-color: white;
-  margin-left: 1%;
-  margin-right: 1%;
-  border: 2px dotted lightgrey;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+  /* border: 2px dotted lightgrey;
 	border-radius: 10px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px; */
   font-family: 'Open Sans', sans-serif;
   font-size: small;
   font-weight: normal;
