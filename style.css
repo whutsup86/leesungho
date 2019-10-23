@@ -65,13 +65,14 @@ body {
   border: 2px dotted lightgrey;
 	border-radius: 15px;
   padding: 10px 10px 10px 10px; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: monospace; /*'Open Sans', sans-serif;*/
   font-size: small;
   font-weight: normal;
-  letter-spacing: 0.7px;
+  /* letter-spacing: 0.7px; */
 }
 
 h1 {
+  font-family:'open sans',sans-serif;
   background-color: white;
   color: black;
 	text-shadow: 2px 2px lightgrey;
