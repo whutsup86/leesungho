@@ -12,7 +12,7 @@ summary::-webkit-details-marker {
 }
 summary:hover {
   color: yellow;
-  background-color: green;
+  background-color: black;
 }
 
 /*social media button*/
@@ -27,7 +27,7 @@ summary:hover {
 }
 
 .fa:link {
-  color: white !important;
+  color: green !important;
   text-decoration: none;
 }
 
