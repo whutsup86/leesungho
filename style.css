@@ -7,7 +7,9 @@ summary{ background-color: white;
   letter-spacing: 1.2px;
 
 }
-
+summary::-webkit-details-marker {
+  display: none
+}
 summary:hover {
   color: yellow;
   background-color: black;
