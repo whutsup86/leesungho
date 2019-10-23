@@ -36,21 +36,21 @@ summary:hover {
 }
 
 .fa-instagram {
-  background: darkgrey
+  background: green
     /*#125688*/
   ;
   color: white;
 }
 
 .fa-linkedin {
-  background: darkgrey
+  background: green
     /*#007bb5*/
   ;
   color: white;
 }
 
 .fa-google {
-  background: darkgrey
+  background: green
     /*#dd4b39*/
   ;
   color: white;
@@ -93,10 +93,10 @@ h1 {
   font-family:'open sans',sans-serif;
   font-style: italic;
   font-weight: bold;
-
+  letter-spacing: 1.2px;
   background-color: white;
-  color: #FF0000;
-	text-shadow: 2px 2px #87CEEB;
+  color: red;
+	text-shadow: 2px 2px #87CEFA;
 }
 
 h2 {
