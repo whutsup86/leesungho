@@ -75,8 +75,8 @@ a:hover {
 
 body {
   background-color: white;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
 	margin-top: auto;
 	margin-bottom: auto;
   /* border: 2px dotted lightgrey;
@@ -89,11 +89,13 @@ body {
 }
 
 h1 {
+
   font-family:'open sans',sans-serif;
   font-style: italic;
+  font-weight: lighter;
   background-color: white;
   color: black;
-	text-shadow: 2px 2px #87CEFA;
+	text-shadow: 0px 4px #87CEFA;
 }
 
 h2 {
@@ -109,6 +111,7 @@ h3 {
   font-weight: 700;
   letter-spacing: 1.2px;
 }
+
 
 p1 {
   font-weight: bold;
