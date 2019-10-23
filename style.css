@@ -80,14 +80,14 @@ h1 {
 
 h2 {
   color: white;
-  font-size: small;
+  font-size: medium;
   font-weight: 700;
   letter-spacing: 1.2px;
 }
 
 h3 {
   color: black;
-  font-size: small;
+  font-size: medium;
   font-weight: 700;
   letter-spacing: 1.2px;
 }
@@ -99,6 +99,6 @@ p1 {
 p2 {
   color: white;
   font-weight: 700;
-  font-size: small;
+  font-size: medium;
   letter-spacing: 1.2px;
 }
