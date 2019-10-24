@@ -11,8 +11,8 @@ summary::-webkit-details-marker {
   display: none
 }
 summary:hover {
-  color: yellow;
-  background-color: black;
+  color: green;
+  background-color: lightgrey;
 }
 
 /*social media button*/
@@ -27,7 +27,7 @@ summary:hover {
 }
 
 .fa:link {
-  color: green !important;
+  color: white !important;
   text-decoration: none;
 }
 
@@ -68,8 +68,8 @@ a:visited {
 }
 
 a:hover {
-  color: yellow;
-  background-color: black;
+  color: green;
+  background-color: lightgrey;
   text-decoration: underline;
 }
 
@@ -90,13 +90,16 @@ body {
 
 h1 {
 
-  font-family:'open sans',sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 1.2px;
+  /* font-family: 'Bangers', cursive; */
+  font-family: 'Monofett', cursive;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 250%;
+  letter-spacing: 1px;
   background-color: white;
-  color: red;
-	text-shadow: 2px 2px #87CEFA;
+  color: green;
+	/* text-shadow: 2px 2px #87CEFA; */
 }
 
 h2 {
@@ -127,4 +130,85 @@ p2 {
   font-weight:normal;
   font-size: medium;
   letter-spacing: 1.2px;
+}
+/*
+    these are just the default styles used in the Cycle2 demo pages.
+    you can use these styles or any others that you wish.
+*/
+
+
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.cycle-slideshow { width: 45%; min-width: 200px; max-width: 200px; margin: 10px auto; padding: 0; position: relative;
+    background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
+
+ }
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img {
+    /*
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0; display: block; height: auto;
+}
+
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static; z-index: 100;
+}
+
+/* pager */
+.cycle-pager {
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: -40px; overflow: hidden;
+}
+.cycle-pager span {
+    font-family: arial; font-size: 40px; width: 16px; height: 16px;
+    display: inline-block; color: lightgrey; cursor: pointer;
+}
+.cycle-pager span.cycle-pager-active { color: green;}
+.cycle-pager > * { cursor: pointer;}
+
+
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay {
+    font-family: tahoma, arial;
+    position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+
+
+/* prev / next links */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+.disabled { opacity: .5; filter:alpha(opacity=50); }
+
+
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Paused'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+
+/*
+    media queries
+    some style overrides to make things more pleasant on mobile devices
+*/
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .cycle-slideshow { width: 200px;}
+    .cycle-overlay { padding: 4px }
+    .cycle-caption { bottom: 4px; right: 4px }
 }
