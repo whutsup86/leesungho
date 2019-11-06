@@ -33,6 +33,9 @@
 		<!-- show timer  -->
 		<center>
 			<script type="text/javascript">
+				var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+					"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+				];
 				var d = new Date();
 				var nowHour = d.getHours();
 				var nowMt = d.getMinutes();
@@ -40,16 +43,16 @@
 
 				// Check AM, PM
 
-				if (nowHour <= 12 && nowHour >= 6) {
+				if (nowHour < 12 && nowHour >= 0) {
 
 					c = 'AM';
 
-				} else if (nowHour >= 12 && nowHour < 22) {
+				} else if (nowHour >= 12 && nowHour < 24) {
 
 					c = 'PM';
 
 				}
-				document.write(d.getDate(), '/', (d.getMonth() + 1), '/', d.getFullYear(), ' ', d.getHours(), ':', d.getMinutes(), ' ', c, '<br />');
+				document.write(d.getDate(), '/', monthNames[d.getMonth()], '/', d.getFullYear(), ' ', d.getHours(), ':', d.getMinutes(), ' ', c, '<br />');
 			</script>
 		</center>
 	</p>
@@ -58,14 +61,14 @@
 	<br>
 
 	<details>
-	<summary> CURRENT & UPCOMING </summary>
+		<summary> CURRENT & UPCOMING </summary>
 
-	<p>(Between Oct. and Nov. 2019) I will be focusing on the completion of electronic system related to Stool.D : a combination stool and cycling machine designed for small houses.</p>
-	<img src="Stool.D.jpg" style="max-width: 100%; height: auto;">
-	<br>
+		<p>(Between Oct. and Nov. 2019) I will be focusing on the completion of electronic system related to Stool.D : a combination stool and cycling machine designed for small houses.</p>
+		<img src="Stool.D.jpg" style="max-width: 100%; height: auto;">
+		<br>
 
 
-</details>
+	</details>
 	<br>
 	<details>
 		<summary> WORKS </summary><br>
@@ -133,12 +136,12 @@
 	<br><br><br>
 
 	<p3>
-	<a href="mailto:leeeeeeesungho@gmail.com" class="fa fa-google"></a>
-	<a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
-	<a href="https://www.instagram.com/lesungho/" class="fa fa-instagram"></a>
+		<a href="mailto:leeeeeeesungho@gmail.com" class="fa fa-google"></a>
+		<a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+		<a href="https://www.instagram.com/lesungho/" class="fa fa-instagram"></a>
 
-	<br><br><br>
-	 © Copyright 2019 Sung Ho Lee </p3>
+		<br><br><br>
+		© Copyright 2019 Sung Ho Lee </p3>
 
 </body>
 
