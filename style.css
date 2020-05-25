@@ -11,7 +11,7 @@ summary::-webkit-details-marker {
   display: none
 }
 summary:hover {
-  color: slategrey;
+  color: white;
   background-color: lightgrey;
 }
 
@@ -99,7 +99,7 @@ h1 {
   font-size: 250%;
   letter-spacing: 1px;
   background-color: white;
-  color: slategrey;
+  color: darkgrey;
 	/* text-shadow: 2px 2px #87CEFA; */
 }
 
