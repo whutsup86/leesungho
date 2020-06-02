@@ -91,15 +91,17 @@ body {
 h1 {
 
   /* font-family: 'Bangers', cursive; */
-  /* font-family: 'Monofett', cursive; */
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Monofett', cursive;
+  /* font-family: 'Major Mono Display', monospace; */
+
+
 
   font-style: normal;
   font-weight: normal;
   font-size: 250%;
   letter-spacing: 1px;
   background-color: white;
-  color: darkgrey;
+  color: tomato;
 	/* text-shadow: 2px 2px #87CEFA; */
 }
 
