@@ -90,18 +90,16 @@ body {
 
 h1 {
 
-  /* font-family: 'Bangers', cursive; */
-  font-family: 'Monofett', cursive;
-  /* font-family: 'Major Mono Display', monospace; */
 
+  font-family: verdana;
 
 
   font-style: normal;
   font-weight: normal;
-  font-size: 250%;
+  font-size: 150%;
   letter-spacing: 1px;
   background-color: white;
-  color: tomato;
+  color: black;
 	/* text-shadow: 2px 2px #87CEFA; */
 }
 
