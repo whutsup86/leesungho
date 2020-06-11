@@ -1,8 +1,28 @@
+button{
+  background-color: white;
+  font-family: monospace;
+  font-size: 12px;
+  color: white;
+  border: 1px solid black;
 
+}
+
+#grid
+{
+  display:grid;
+  grid-template-columns: 1fr 1.5fr 0.25fr 0.25fr 0.25fr 0.25fr;
+}
+
+details
+{
+  width:25%;
+  text-align: left;
+
+}
 
 summary{ background-color: white;
   color: black;
-  font-size: medium;
+  font-size: 12px;
   font-weight: normal;
   letter-spacing: 1.2px;
 
@@ -59,7 +79,7 @@ summary:hover {
 /*link address option*/
 a:link {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
@@ -68,7 +88,7 @@ a:visited {
 }
 
 a:hover {
-  color: green;
+  color: white;
   background-color: lightgrey;
   text-decoration: underline;
 }
@@ -86,6 +106,10 @@ body {
   font-size: small;
   font-weight: normal;
   /* letter-spacing: 0.7px; */
+
+
+
+
 }
 
 h1 {
@@ -100,6 +124,7 @@ h1 {
   letter-spacing: 1px;
   background-color: white;
   color: black;
+
 	/* text-shadow: 2px 2px #87CEFA; */
 }
 
@@ -122,6 +147,7 @@ h4{
   font-weight: bold;
 }
 
+
 p1 {
   font-weight: bold;
 }
@@ -142,7 +168,7 @@ p2 {
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 
-.cycle-slideshow { width: 45%; min-width: 200px; max-width: 200px; margin: 10px auto; padding: 0; position: relative;
+.cycle-slideshow { width: 45%; min-width: 200px; max-width: 500px; margin: 10px auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
  }
@@ -154,7 +180,7 @@ p2 {
     helps avoid flash-of-unstyled-content
     */
     position: absolute; top: 0; left: 0;
-    width: 100%; padding: 0; display: block; height: auto;
+    width: 100%; padding: 0; display: block;
 }
 
 /* in case script does not load */
@@ -164,13 +190,13 @@ p2 {
 
 /* pager */
 .cycle-pager {
-    text-align: center; width: 100%; z-index: 500; position: absolute; top: -40px; overflow: hidden;
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: 10px; overflow: hidden;
 }
 .cycle-pager span {
-    font-family: arial; font-size: 40px; width: 16px; height: 16px;
-    display: inline-block; color: lightgrey; cursor: pointer;
+    font-family: arial; font-size: 50px; width: 16px; height: 16px;
+    display: inline-block; color: #ddd; cursor: pointer;
 }
-.cycle-pager span.cycle-pager-active { color: green;}
+.cycle-pager span.cycle-pager-active { color: #D69746;}
 .cycle-pager > * { cursor: pointer;}
 
 
