@@ -13,6 +13,12 @@ button{
   grid-template-columns: 1fr 1.5fr 0.25fr 0.25fr 0.25fr 0.25fr;
 }
 
+#gridmain
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 details
 {
 
