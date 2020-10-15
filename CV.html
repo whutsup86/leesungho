@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<meta name="viewport" content="device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0, minimum-scale=1">
+
+<head>
+	<meta charset="utf-8">
+
+	<!-- fabicon -->
+	<link rel="shortcut icon" href="https://whutsup86.github.io/leesungho//favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://whutsup86.github.io/leesungho//favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="style.css">
+
+	<!-- image cycle -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<!-- include one or more optional Cycle2 plugins -->
+	<!-- include jQuery -->
+	<script src="http://malsup.github.io/min/jquery.cycle2.video.min.js"></script>
+
+
+</head>
+
+<body>
+<center>
+	<h1>
+		<br>
+		<span style="background-color:white;">SUNG HO LEE</span>
+	</h1>
+	<p>
+		<!-- show timer  -->
+
+			<script type="text/javascript">
+				var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+					"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+				];
+				var d = new Date();
+				var nowHour = d.getHours();
+				var nowMt = d.getMinutes();
+				var c = 0;
+
+				// Check AM, PM
+
+				if (nowHour < 12 && nowHour >= 0) {
+
+					c = 'AM';
+
+				} else if (nowHour >= 12 && nowHour < 24) {
+
+					c = 'PM';
+
+				}
+				document.write(d.getDate(), '/', monthNames[d.getMonth()], '/', d.getFullYear(), ' ', d.getHours(), ':', d.getMinutes(), ' ', c, '<br />');
+			</script>
+
+	</p>
+
+	<br>
+	<br>
+	<br>
+
+	<button><a href="index.html"> main page </a></button>
+
+	<br>
+
+	<br>
+
+	<p1>
+
+			<embed src="CV.pdf" type="application/pdf" width="100%" height="600px" />
+
+	</p1>
+
+	<p3>
+
+		<br><br>
+		© Copyright 2020 Sung Ho Lee
+
+</p3>
+</center>
+</body>
+
+
+</html>
