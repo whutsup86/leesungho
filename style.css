@@ -1,0 +1,46 @@
+body {
+
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+	margin-top: 3%;
+	margin-bottom: auto;
+  /* border: 2px dotted lightgrey;
+	border-radius: 15px;
+  padding: 10px 10px 10px 10px; */
+  font-family: verdana; /*'Open Sans', sans-serif;*/
+  font-size: normal;
+  font-weight: lighter;
+  /* letter-spacing: 0.7px; */
+
+}
+
+h1 {
+
+  font-family: monospace;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 250%;
+  letter-spacing: 0.5px;
+  background-color: white;
+  color: black;
+
+	/* text-shadow: 2px 2px #87CEFA; */
+}
+
+h2 {
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150%;
+  letter-spacing: 0.5px;
+  background-color: white;
+  color: black;
+
+	/* text-shadow: 2px 2px #87CEFA; */
+}
+
+p {
+  font-size:100%;
+}
