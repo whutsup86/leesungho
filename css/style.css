@@ -51,21 +51,25 @@ h1{
 
 .nav-category{
 
-    width: 23%;
+    width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin:auto;
     padding:0;
+    text-align: center;
+    align-items: center;
     
 }
 
 .li-category{
+    
     margin:10px;
     font-size: 12px;
     font-family: Helvetica;
     font-weight: 200;
     letter-spacing: 2px;
+    
     
 }
 
@@ -73,8 +77,11 @@ h1{
 
     position: relative;
     width: 100%; /* 넓이 값은 조정해서 사용 */
-    padding-bottom: 39%;
+    height: 550px;
+    /* padding-bottom: 50%; */
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -90,6 +97,7 @@ h1{
 iframe{
     border:none;
     width: 100%;
+    
 
 }
 .iframe-youtube{
@@ -132,8 +140,11 @@ iframe{
 .section-experience{
 
     margin:auto;
-    width: 40%;
-    padding: 20px;
+    width: 70%;
+    height: 100%;
+    /* padding: 10px; */
+    
+    justify-content: center;
     
 }
 
@@ -361,7 +372,7 @@ background-color: var(--purple);
     
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin:1px;
     
 }
