@@ -1,0 +1,85 @@
+body{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+h1{
+
+    text-align: left;
+    font-size: 4vw;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+h2{
+
+    text-align: left;
+    font-size: 2vw;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+
+section.title{
+
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-size: 1.2vw;
+    font-weight: 100;
+   
+}
+
+section.overview{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+
+    font-size: 1.2vw;
+    font-weight: 100;
+    
+}
+
+section.description{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 100;
+    
+}
+
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+  
+a:focus,
+a:hover {
+color: #f09228;
+text-decoration: none;
+}
+
+section.model-viewer{
+  
+    margin-left: 20%;
+    margin-right: 20%;
+
+    text-align: center;
+    border: 1px dotted black;
+
+
+}
+
+model-viewer{
+
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+
+
+}
