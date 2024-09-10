@@ -25,7 +25,7 @@ p{
     width:25vw;
     position: fixed; 
     display: inline-block;
-    padding-top: 3vh;
+
     padding-left: 2vw;
     padding-right: 3vw;
 }
@@ -34,7 +34,7 @@ p{
   
     width:68vw;
     display: inline-block;
-    padding-top: 3vh;
+
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -42,6 +42,7 @@ p{
 .pjt{
     width: 68vw;
     display: flex;
+   
 
 }
 
@@ -53,22 +54,23 @@ table, th, td {
 }
 
 .image{
-    width: 15vw;
-    height: 15vw;
+    width: 25vw;
     font-size: 14px;
     padding-top: 14px;
 
 }
 
 .title{
-    width: 43vw;
+    width: 32vw;
     font-size: 14px;
     font-weight: 700;
     
 }
 
 .year{
-    width: 10vw;
+
+    width: 8vw;
+    padding-left:3vw;
     font-size: 14px;
     
 }
@@ -86,14 +88,14 @@ text-decoration: none;
 }
 
 .one {
-    width: 15vw;
-    height: 15vw;
+    width: 25vw;
+ 
     position: relative;
 }
   
 .two {
-    width: 15vw;
-    height: 15vw;
+    width: 25vw;
+    
     position: absolute;
     transition: opacity .2s ease-in-out;
     -moz-transition: opacity .2s ease-in-out;
@@ -101,8 +103,8 @@ text-decoration: none;
 }
 
 model-viewer{
-    width:15vw;
-    height:15vw;
+    width:24vw;
+
     margin: auto;
 }
 
@@ -114,7 +116,8 @@ model-viewer{
 }
 
 hr{
-    border-top: 1px dashed rgb(135, 135, 135);
-    
-
+    border: none;
+    height: 1px;
+    background: #000;
+    background: repeating-linear-gradient(90deg,grey,grey 7px,transparent 7px,transparent 14px);
 }
