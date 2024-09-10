@@ -132,6 +132,27 @@ hr{
 
     .profile {
         order: -1; /* 오른쪽 화면을 위로 이동 */
-        width:68vw;
+        width:90vw;
+    }
+    .main{
+        width: 90vw;
+    }
+    .pjt{
+        width: 90vw;
+    }
+    .image{
+        width: 40vw;
+    }
+    .one{
+        width: 35vw;
+    }
+    .two{
+        width: 35vw;
+    }
+    .title{
+        width: 40vw;
+    }
+    .year{
+        width: 20vw;
     }
 }
