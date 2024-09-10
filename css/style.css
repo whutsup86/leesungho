@@ -2,7 +2,6 @@ body{
     font-family: "Roboto Mono", monospace;
     color:rgb(65, 65, 65);
     width: 100vw;
-    display: inline;
 }
 
 
@@ -21,20 +20,24 @@ p{
 
 }
 
-.profile{
-    width:25vw;
-    position: fixed; 
-    display: inline-block;
+.container{
 
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+.profile{
+    flex: 1;
+    width:25vw;
     padding-left: 2vw;
     padding-right: 3vw;
 }
 
 .main{
-  
+    flex: 1;
     width:68vw;
-    display: inline-block;
-
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -42,16 +45,9 @@ p{
 .pjt{
     width: 68vw;
     display: flex;
-   
 
 }
 
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    
-}
 
 .image{
     width: 25vw;
@@ -72,6 +68,12 @@ table, th, td {
     width: 8vw;
     padding-left:3vw;
     font-size: 14px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
     
 }
 
@@ -104,7 +106,8 @@ text-decoration: none;
 
 model-viewer{
     width:25vw;
-    heigh:17vw;
+    height: 17vw;
+
     margin: auto;
 }
 
@@ -120,4 +123,15 @@ hr{
     height: 1px;
     background: #000;
     background: repeating-linear-gradient(90deg,grey,grey 7px,transparent 7px,transparent 14px);
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .profile {
+        order: -1; /* 오른쪽 화면을 위로 이동 */
+        width:68vw;
+    }
 }
