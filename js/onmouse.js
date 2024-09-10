@@ -18,6 +18,15 @@ function Qtracker_stop() {
 }
 Qtracker_stop()
 
+function remote_start() {
+    document.getElementById('remote_image').style.opacity = "1";
+}
+
+function remote_stop() {
+    document.getElementById('remote_image').style.opacity = "0";
+}
+remote_stop()
+
 function LUNE_start() {
     document.getElementById('LUNE_image').style.opacity = "1";
 }
@@ -53,3 +62,4 @@ function Tracker_stop() {
     document.getElementById('Tracker_image').style.opacity = "0";
 }
 Tracker_stop()
+
