@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>SUNGHO LEE</title>
 </head>
@@ -13,7 +13,7 @@
 <body>
     
     <div class="main">
-        <hr>
+   
         <div class="pjt">
             <div class="image">
                 <div onmouseout="AR_stop()" onmouseover="AR_start()">
@@ -105,16 +105,25 @@
 
         <hr>
 
+
         <div class="pjt">
             <div class="image">
-                
-                <model-viewer id="model-ex" src="gltf/Remote-shop.gltf" alt="model sample" 
-                    camera-controls touch-anction="pan-y" camera-orbit="135deg 90deg 40%"  >
-                </model-viewer>
+                <div onmouseout="remote_stop()" onmouseover="remote_start()">
+                    <div class="one">
+                        <div class="two" id='remote_image'>
+                            <model-viewer id="model-ex" src="gltf/Remote-shop.gltf" alt="model sample" 
+                            camera-controls touch-anction="pan-y" camera-orbit="135deg 90deg 40%" >
+                            </model-viewer>
+    
+                        </div>
+                        <img src='img/main-reomote.png' width=100%>
+                    </div>
+                    <script src="js/onmouse.js"></script>
 
-               
-
+                </div>
+ 
             </div>
+            
             <div class="title">
                 <p class="bold">Remote Retail Shop</p>
                 <p>COVID19-pandemic shifts social interaction connection. It offers remote sales via the online with non-connection. </p>
@@ -183,6 +192,7 @@
             </div>
             <div class="title">
                 <p class="bold">LUNE</p>
+                
                 <p>How can we use lighting object to effectively convey monthly passage of time?</p>
 
                 <p>
@@ -264,7 +274,7 @@
 
 
     <div class="profile">
-        <hr>
+      
         <p class="bold">SUNGHO LEE</p>
         <p>
             Currently, I'm a research engineer at the <a href="https://www.rakuten.com/">Rakuten</a>. Explore the next generation product innovations including IoT, Digital Twin, XR, AI
@@ -275,11 +285,16 @@
         <p>
             I have an MS in interaction design from <a href="https://sites.google.com/view/decs-unist/research">UNIST Decs lab</a>, where I designed interative digital device and personal mobility vehicle.
         </p>
-        <ul>
-            <li><a href="mailto:whutsup86@gmail.com">Email</a></li>
-            <li><a href="">CV</a></li>
-            <li><a href="https://www.linkedin.com/in/sungho-lee-2014b4137/">Linkedin</a></li>
-        </ul>
+      
+        <p>
+            <i class="fa fa-id-card-o" style="font-size:18px"></i>&nbsp;<a href="">CV</a>
+        </p>
+        <p>
+            <i class="fa fa-envelope-o" style="font-size:20px"></i>&nbsp;<a href="mailto:whutsup86@gmail.com">Email</a>
+        </p>
+        <p>
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>&nbsp;<a href="https://www.linkedin.com/in/sungho-lee-2014b4137/">Linkedin</a>
+        </p>
         <p>
             <img src="img/me.png" width="50%">
 
@@ -300,5 +315,3 @@
     
 </body>
 </html>
-
-                    
