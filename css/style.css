@@ -9,6 +9,9 @@ p.bold{
 
     font-weight: 700;
     font-size: 13px;
+    margin-top: 0;
+    padding-top:0;
+
 
 }
 
@@ -16,7 +19,9 @@ p{
     font-weight: 100;
     font-size: 13px;
     margin-left: 10px;
-   
+    margin-top: 0;
+    padding-top:0;
+  
 
 }
 
@@ -25,10 +30,15 @@ p{
     display: flex;
     flex-direction: row;
     height: 100vh;
+    padding: 0;
+    margin:0;
+
 
 }
 
 .profile{
+    margin-top:8px;
+    padding-top: 0px;
     flex: 1;
     position: fixed;
     top:0;
@@ -39,15 +49,18 @@ p{
 }
 
 .main{
-    flex: 1;
+    flex: 0;
     width:68vw;
     padding-left: 1vw;
     padding-right: 1vw;
+    
 }
 
 .pjt{
+  
     width: 68vw;
     display: flex;
+  
 
 }
 
@@ -55,7 +68,7 @@ p{
 .image{
     width: 25vw;
     font-size: 14px;
-    padding-top: 14px;
+    padding-top: 0px;
 
 }
 
@@ -116,12 +129,12 @@ model-viewer{
 
 .copyright{
 
-
     margin-bottom:5%;
-
 }
 
 hr{
+    margin-bottom: 10px;
+    padding:0;
     border: none;
     height: 1px;
     background: #000;
@@ -136,7 +149,7 @@ hr{
     .profile {
         order: -1; /* 오른쪽 화면을 위로 이동 */
         width:90vw;
-        postion:flex;
+        position:relative;
     }
     .main{
         width: 90vw;
