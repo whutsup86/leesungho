@@ -8,13 +8,13 @@ body{
 p.bold{
 
     font-weight: 700;
-    font-size: 12px;
+    font-size: 13px;
 
 }
 
 p{
     font-weight: 100;
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 10px;
    
 
@@ -58,7 +58,7 @@ p{
 
 .title{
     width: 32vw;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     
 }
@@ -67,7 +67,7 @@ p{
 
     width: 8vw;
     padding-left:3vw;
-    font-size: 14px;
+    font-size: 15px;
     
 }
 
@@ -80,7 +80,7 @@ table, th, td {
 a {
     color: rgb(65, 65, 65);
     text-decoration: underline;
-    font-size: 12px;
+    font-size: 13px;
 }
   
 a:focus,
