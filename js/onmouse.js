@@ -1,4 +1,15 @@
 
+function Insect_start() {
+    document.getElementById('Insect_image').style.opacity = "1";
+}
+
+function Insect_stop() {
+    document.getElementById('Insect_image').style.opacity = "0";
+}
+AR_stop()
+
+
+
 function AR_start() {
     document.getElementById('AR_image').style.opacity = "1";
 }
