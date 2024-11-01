@@ -6,7 +6,7 @@ function Insect_start() {
 function Insect_stop() {
     document.getElementById('Insect_image').style.opacity = "0";
 }
-AR_stop()
+Insect_stop()
 
 
 
