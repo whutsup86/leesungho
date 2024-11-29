@@ -25,6 +25,12 @@ p{
 
 }
 
+p.description{
+    font-weight: 100;
+    font-size: 13px;
+    color:rgb(120, 120, 120);
+}
+
 .container{
 
     display: flex;
@@ -134,11 +140,11 @@ model-viewer{
 
 hr{
     margin-bottom: 10px;
-    padding:0;
+    /* padding:0;
     border: none;
     height: 1px;
     background: #000;
-    background: repeating-linear-gradient(90deg,grey,grey 7px,transparent 7px,transparent 14px);
+    background: repeating-linear-gradient(90deg,grey,grey 7px,transparent 7px,transparent 14px); */
 }
 
 @media (max-width: 800px) {
