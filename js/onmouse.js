@@ -1,4 +1,5 @@
 ScentLab_stop();
+Insect_stop();
 AR_stop();
 Qtracker_stop();
 remote_stop();
@@ -13,7 +14,6 @@ function ScentLab_start() {
 function ScentLab_stop() {
     document.getElementById('ScentLab_image').style.opacity = "0";
 }
-
 
 function Insect_start() {
     document.getElementById('Insect_image').style.opacity = "1";
